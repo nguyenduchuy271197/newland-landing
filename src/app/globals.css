@@ -126,4 +126,12 @@
     @apply text-[36px] font-extrabold leading-[1.37];
     @apply lg:text-[56px] lg:leading-[1.37];
   }
+
+  .desktop-image {
+    @apply hidden lg:block;
+  }
+
+  .mobile-image {
+    @apply block lg:hidden;
+  }
 }

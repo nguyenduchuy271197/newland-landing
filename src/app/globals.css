@@ -12,6 +12,7 @@
   :root {
     --background: 0 0% 96%;
     --foreground: 0 0% 27%;
+    --product-bg: 61 56% 95%;
 
     /* Primary Colors */
     --primary-50: 90 50% 95%;
@@ -64,12 +65,12 @@
 
   /* h1 */
   h1 {
-    @apply text-[32px] font-semibold leading-[1.375];
+    @apply text-[32px] font-semibold leading-[1.375] text-primary-700;
     @apply lg:text-[64px] lg:leading-[1.5];
   }
 
   .h1-alt {
-    @apply font-monte-carlo text-[48px] font-normal leading-[0.92];
+    @apply font-monte-carlo text-[48px] font-normal leading-[0.92] text-primary-500;
     @apply lg:text-[112px] lg:leading-[0.7];
   }
 

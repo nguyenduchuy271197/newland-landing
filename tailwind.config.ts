@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "product-bg": "hsl(var(--product-bg))",
         primary: {
           50: "hsl(var(--primary-50))",
           100: "hsl(var(--primary-100))",

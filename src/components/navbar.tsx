@@ -8,6 +8,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Logo from "./logo";
+import Container from "./container";
 
 export default function Navbar() {
   const navItems = [
@@ -20,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Logo />
@@ -73,7 +74,7 @@ export default function Navbar() {
             </Sheet>
           </div>
         </div>
-      </div>
+      </Container>
     </nav>
   );
 }

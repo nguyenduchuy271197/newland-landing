@@ -73,12 +73,13 @@ const ProductBadge = ({ isBestseller }: { isBestseller: boolean }) => {
 };
 
 const ProductImage = ({ src, alt }: { src: string; alt: string }) => (
-  <div className="aspect-square flex items-center justify-center mb-6 bg-gray-100 overflow-hidden rounded">
-    <img
+  <div className="relative aspect-square flex items-center justify-center mb-6 bg-gray-100 overflow-hidden rounded">
+    <Image
       src={src}
       alt={alt}
       className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
       loading="lazy"
+      fill
     />
   </div>
 );

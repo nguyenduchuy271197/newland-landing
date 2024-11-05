@@ -1,0 +1,442 @@
+{
+  "hero": {
+    "title": {
+      "mainText": "Mỹ phẩm Hàn Quốc thuần",
+      "subText": "tự nhiên"
+    },
+    "subtitle": "Giải pháp thiên nhiên hoàn hảo cho mọi làn da",
+    "cta": {
+      "text": "Nhận tư vấn miễn phí ngay"
+    }
+  },
+  "companyStats": {
+    "keyMetrics": [
+      {
+        "value": "16",
+        "label": "Năm kinh nghiệm trong ngành mỹ phẩm",
+        "type": "years"
+      },
+      {
+        "value": "9",
+        "label": "Thị trường trên thế giới",
+        "type": "markets"
+      },
+      {
+        "value": "60",
+        "label": "Dòng sản phẩm từ thiên nhiên",
+        "type": "products"
+      },
+      {
+        "value": "1000+",
+        "label": "Nhân viên tại Hàn Quốc",
+        "type": "employees"
+      }
+    ],
+    "imageSlides": [
+      {
+        "id": 1,
+        "src": "/images/facility-main",
+        "alt": "Modern white industrial facility with green trim, featuring outdoor seating area and landscaped grounds"
+      },
+      {
+        "id": 2,
+        "src": "/images/facility-lab",
+        "alt": "Research and development laboratory facility"
+      },
+      {
+        "id": 3,
+        "src": "/images/facility-production",
+        "alt": "Production and manufacturing area"
+      },
+      {
+        "id": 4,
+        "src": "/images/facility-quality",
+        "alt": "Quality control testing facility"
+      },
+      {
+        "id": 5,
+        "src": "/images/facility-research",
+        "alt": "Research center and development area"
+      },
+      {
+        "id": 6,
+        "src": "/images/facility-packaging",
+        "alt": "Product packaging and distribution center"
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Rễ Hà thủ ô và Vỏ cây Morus",
+      "description": "Chiết xuất Hà thủ ô và vỏ dâu tằm giúp làm trắng da tự nhiên, mờ vết nhăn và kháng viêm, mang đến làn da mịn màng, khỏe mạnh.",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877051/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/Re%CC%82%CC%83_Ha%CC%80_thu%CC%89_o%CC%82_va%CC%80_Vo%CC%89_ca%CC%82y_Morus___mevdpo.webp",
+        "alt": "Rễ Hà thủ ô và quả Morus màu đen trên nền rêu"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lá Bibichu",
+      "description": "Chiết xuất Bibichu hiệu quả trong việc làm giảm sắc tố melanin, mang lại làn da trắng sáng tự nhiên.",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877049/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/La%CC%81_Bibichu___c7be2y.webp",
+        "alt": "Hoa Bibichu màu tím trên nền lá xanh"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Phức hợp chống oxy hóa",
+      "description": "Hoạt chất chống oxy hóa Radi-Scavenger NL được cấp bằng sáng chế của Newland, bảo vệ tế bào bằng cách tăng cường hệ thống chống oxy hóa tự nhiên.",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877051/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/Phu%CC%9B%CC%81c_ho%CC%9B%CC%A3p_cho%CC%82%CC%81ng_oxy_ho%CC%81a___pfvubj.webp",
+        "alt": "Hoa sen hồng và các thành phần tự nhiên"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mật ong Manuka",
+      "description": "Mật ong Manuka, với khả năng kháng khuẩn tự nhiên, giúp cân bằng độ pH da và có tác dụng làm dịu.",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877050/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/Ma%CC%A3%CC%82t_ong_Manuka___hzalcj.webp",
+        "alt": "Tổ ong mật Manuka"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chiết xuất Jaungo",
+      "description": "Chiết xuất Jaungo, thành phần độc quyền của Newland, chống oxy và dưỡng ẩm hiệu quả cho da",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877050/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/Chie%CC%82%CC%81t_xua%CC%82%CC%81t_Jaungo___puok5j.webp",
+        "alt": "Các thành phần tự nhiên của Jaungo"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Lô hội",
+      "description": "Lô hội, hay nha đam chứa nhiều vitamin và dưỡng chất, giúp làm mát da, dưỡng ẩm.",
+      "image": {
+        "src": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877050/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/3.%20Th%C3%A0nh%20ph%E1%BA%A7n%20n%E1%BB%95i%20b%E1%BA%ADt/Lo%CC%82_ho%CC%A3%CC%82i___z1aoxn.webp",
+        "alt": "Cây lô hội xanh với gai"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cleansing",
+      "title": "Sản phẩm làm sạch",
+      "icon": "leaf",
+      "order": 1
+    },
+    {
+      "id": "deep-cleansing",
+      "title": "Chăm sóc cơ bản",
+      "icon": "star",
+      "order": 2
+    },
+    {
+      "id": "skincare",
+      "title": "Dưỡng sáng",
+      "icon": "sun",
+      "order": 3
+    },
+    {
+      "id": "moisturizing",
+      "title": "Làm dịu và phục hồi da",
+      "icon": "droplet",
+      "order": 4
+    },
+    {
+      "id": "treatment",
+      "title": "Chống lão hoá và tăng đàn hồi da",
+      "icon": "clock",
+      "order": 5
+    },
+    {
+      "id": "whitening",
+      "title": "Nám và đốm thâm",
+      "icon": "target",
+      "order": 6
+    },
+    {
+      "id": "derma",
+      "title": "DERMA BASIC",
+      "icon": "flask"
+    }
+  ],
+  "products": [
+    {
+      "id": "VITA-C-01",
+      "name": "Tinh chất Newland Vita-C Total Care Ampule",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1726109488/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/S%E1%BA%A3n%20ph%E1%BA%A9m%20b%C3%A1n%20ch%E1%BA%A1y/Tinh_cha%CC%82%CC%81t_Newland_Vita-C_Total_Care_Ampule_copy_dpfkme.webp",
+      "price": 499000,
+      "currency": "VND",
+      "unit": "hộp lẻ",
+      "categoryId": "skin-care",
+      "isBestseller": true
+    },
+    {
+      "id": "R3-SERUM-01",
+      "name": "Tinh chất dưỡng trắng Newland R3 Serum",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877311/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/S%E1%BA%A3n%20ph%E1%BA%A9m%20b%C3%A1n%20ch%E1%BA%A1y/Tinh_cha%CC%82%CC%81t_du%CC%9Bo%CC%9B%CC%83ng_tra%CC%86%CC%81ng_Newland_R3_Serum___why0oc.webp",
+      "price": 1400000,
+      "currency": "VND",
+      "categoryId": "brightening",
+      "isBestseller": true
+    },
+    {
+      "id": "ANTI-OX-01",
+      "name": "Gel làm dịu chống oxy hóa Saemina Revitalizing Signal Velvet Anti-Oxidation Gel",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/S%E1%BA%A3n%20ph%E1%BA%A9m%20b%C3%A1n%20ch%E1%BA%A1y/Gel_la%CC%80m_di%CC%A3u_cho%CC%82%CC%81ng_oxy_ho%CC%81a_Saemina_Revitalizing_Signal_Velvet_Anti-Oxidation_Gel___ajuppz.webp",
+      "price": 420000,
+      "currency": "VND",
+      "categoryId": "treatment",
+      "isBestseller": true
+    },
+    {
+      "id": "NUTRI-01",
+      "name": "Kem phục hồi da Saemina Revitalizing Signal Velvet Nutrition Cream",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/S%E1%BA%A3n%20ph%E1%BA%A9m%20b%C3%A1n%20ch%E1%BA%A1y/Kem_phu%CC%A3c_ho%CC%82%CC%80i_da_Saemina_Revitalizing_Signal_Velvet_Nutrition_Cream___z35ft5.webp",
+      "price": 480000,
+      "currency": "VND",
+      "categoryId": "treatment",
+      "isBestseller": true
+    },
+    {
+      "id": "COL-01",
+      "name": "Serum cải thiện đàn hồi Saemina Col-Pep Serum",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/S%E1%BA%A3n%20ph%E1%BA%A9m%20b%C3%A1n%20ch%E1%BA%A1y/Serum_ca%CC%89i_thie%CC%A3%CC%82n_%C4%91a%CC%80n_ho%CC%82%CC%80i_Saemina_Col-Pep_Serum___xxutfm.webp",
+      "price": 680000,
+      "currency": "VND",
+      "categoryId": "anti-aging",
+      "isBestseller": true
+    },
+    {
+      "id": "CLEAN-01",
+      "name": "Pure White Pure Clear Cleanser",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Pure_White_Pure_Clear_Cleanser.webp",
+      "price": 565000,
+      "currency": "VND",
+      "categoryId": "cleansing",
+      "isBestseller": false
+    },
+    {
+      "id": "CLEAN-02",
+      "name": "Pure White Pure Clear Foaming Gel",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Pure_White_Pure_Clear_Foaming_Gel.webp",
+      "price": 565000,
+      "currency": "VND",
+      "categoryId": "cleansing",
+      "isBestseller": false
+    },
+    {
+      "id": "BASIC-01",
+      "name": "Tẩy tế bào chết Pure Clear Daily",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Tay_te_bao_chet_Pure_Clear_Daily.webp",
+      "price": 595000,
+      "currency": "VND",
+      "categoryId": "deep-cleansing",
+      "isBestseller": false
+    },
+    {
+      "id": "BASIC-02",
+      "name": "Tẩy tế bào chết Pure Clear Pure",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Tay_te_bao_chet_Pure_Clear_Pure.webp",
+      "price": 595000,
+      "currency": "VND",
+      "categoryId": "deep-cleansing",
+      "isBestseller": false
+    },
+    {
+      "id": "BRIGHT-01",
+      "name": "Pure White Daily Treatment",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Pure_White_Daily_Treatment.webp",
+      "price": 780000,
+      "currency": "VND",
+      "categoryId": "skincare",
+      "isBestseller": false
+    },
+    {
+      "id": "BRIGHT-02",
+      "name": "Brightening Concentrated",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Brightening_Concentrated.webp",
+      "price": 780000,
+      "currency": "VND",
+      "categoryId": "skincare",
+      "isBestseller": false
+    },
+    {
+      "id": "MOIST-01",
+      "name": "Cream Hydration Pure Clear",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Cream_Hydration_Pure_Clear.webp",
+      "price": 850000,
+      "currency": "VND",
+      "categoryId": "moisturizing",
+      "isBestseller": false
+    },
+    {
+      "id": "MOIST-02",
+      "name": "Ampoule Age-Bright Care",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Ampoule_Age_Bright_Care.webp",
+      "price": 850000,
+      "currency": "VND",
+      "categoryId": "moisturizing",
+      "isBestseller": false
+    },
+    {
+      "id": "TREAT-01",
+      "name": "Serum Anti Aging Whitening",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Serum_Anti_Aging_Whitening.webp",
+      "price": 965000,
+      "currency": "VND",
+      "categoryId": "treatment",
+      "isBestseller": false
+    },
+    {
+      "id": "TREAT-02",
+      "name": "Night Care Whitening",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Night_Care_Whitening.webp",
+      "price": 965000,
+      "currency": "VND",
+      "categoryId": "treatment",
+      "isBestseller": false
+    },
+    {
+      "id": "WHIT-01",
+      "name": "Pure Clearing Age Spot",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Pure_Clearing_Age_Spot.webp",
+      "price": 840000,
+      "currency": "VND",
+      "categoryId": "whitening",
+      "isBestseller": false
+    },
+    {
+      "id": "WHIT-02",
+      "name": "Concentrated Clearing Spot",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Concentrated_Clearing_Spot.webp",
+      "price": 840000,
+      "currency": "VND",
+      "categoryId": "whitening",
+      "isBestseller": false
+    },
+    {
+      "id": "DERMA-01",
+      "name": "Serum Pure Daily Dermabasic",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Serum_Pure_Daily_Dermabasic.webp",
+      "price": 1180000,
+      "currency": "VND",
+      "categoryId": "derma",
+      "isBestseller": false
+    },
+    {
+      "id": "DERMA-02",
+      "name": "Concentrated Dermabasic",
+      "image": "https://res.cloudinary.com/dk3pxmymh/image/upload/v1725877310/likelion/Newland%20All%20Nature/Landing%20page%20%28Sep2024%29/5.%20S%E1%BA%A3n%20ph%E1%BA%A9m/Concentrated_Dermabasic.webp",
+      "price": 1180000,
+      "currency": "VND",
+      "categoryId": "derma",
+      "isBestseller": false
+    }
+  ],
+
+  "productSets": [
+    {
+      "id": "set-1",
+      "name": "Bộ sản phẩm trắng điển",
+      "image": "/sets/whitening-set.jpg",
+      "products": [
+        "Whitening Serum",
+        "Brightening Cream",
+        "Protection Sunscreen"
+      ],
+      "price": "2.480.000 ₫"
+    },
+    {
+      "id": "set-2",
+      "name": "Bộ sản phẩm chăm sóc cơ bản",
+      "image": "/sets/basic-care-set.jpg",
+      "products": ["Cleansing Foam", "Toner", "Moisturizer"],
+      "price": "1.980.000 ₫"
+    }
+  ],
+  "shoppingSteps": [
+    {
+      "id": 1,
+      "stepNumber": "Bước 1",
+      "title": "Chọn sản phẩm",
+      "description": "Khám phá các sản phẩm chăm sóc da tự nhiên Hàn Quốc của chúng tôi và chọn những món bạn muốn mua.",
+      "icon": {
+        "type": "cursor-click",
+        "color": "green"
+      },
+      "backgroundColor": "light-green"
+    },
+    {
+      "id": 2,
+      "stepNumber": "Bước 2",
+      "title": "Trò chuyện với Newland",
+      "description": "Kết nối với đội ngũ của Newland qua Zalo hoặc Messenger để giải đáp thắc mắc hoặc chốt đơn hàng.",
+      "icon": {
+        "type": "chat",
+        "color": "green"
+      },
+      "backgroundColor": "light-beige"
+    },
+    {
+      "id": 3,
+      "stepNumber": "Bước 3",
+      "title": "Xác nhận đơn hàng",
+      "description": "Kiểm tra và xác nhận thông tin đơn hàng với đội ngũ hỗ trợ.",
+      "icon": {
+        "type": "document-check",
+        "color": "green"
+      },
+      "backgroundColor": "light-green"
+    },
+    {
+      "id": 4,
+      "stepNumber": "Bước 4",
+      "title": "Nhận hóa đơn",
+      "description": "Nhận hóa đơn mua hàng trực tiếp qua zalo.",
+      "icon": {
+        "type": "receipt",
+        "color": "green"
+      },
+      "backgroundColor": "light-beige"
+    }
+  ],
+  "promises": [
+    {
+      "id": 1,
+      "icon": {
+        "type": "shield-check"
+      },
+      "title": "Sản phẩm chính hãng Newland",
+      "description": "nhập khẩu trực tiếp từ Hàn Quốc"
+    },
+    {
+      "id": 2,
+      "icon": {
+        "type": "delivery-truck"
+      },
+      "title": "Đóng gói và giao hàng nhanh",
+      "description": "chóng"
+    },
+    {
+      "id": 3,
+      "icon": {
+        "type": "box-open"
+      },
+      "title": "Cho phép kiểm tra hàng",
+      "description": "trước khi nhận"
+    },
+    {
+      "id": 4,
+      "icon": {
+        "type": "refresh"
+      },
+      "title": "Miễn phí đổi trả hàng",
+      "description": ""
+    }
+  ]
+}

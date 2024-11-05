@@ -1,5 +1,70 @@
+import Image from "next/image";
 import Container from "./container";
+import Carousel from "./shared/carousel";
 import { Button } from "./ui/button";
+
+interface SlideImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+interface CarouselProps {
+  items: React.ReactNode[];
+  autoPlay?: boolean;
+  interval?: number;
+  showDots?: boolean;
+  showArrows?: boolean;
+}
+
+// Define the slide data separately for better maintainability
+const SLIDE_IMAGES: SlideImage[] = [
+  {
+    src: "/image1.jpg",
+    alt: "Slide 1",
+    width: 800,
+    height: 400,
+  },
+  {
+    src: "/image2.jpg",
+    alt: "Slide 2",
+    width: 800,
+    height: 400,
+  },
+  {
+    src: "/image3.jpg",
+    alt: "Slide 3",
+    width: 800,
+    height: 400,
+  },
+];
+
+const AboutCarousel: React.FC = () => {
+  // Create slides with proper image optimization and loading
+  const slides = SLIDE_IMAGES.map((image, index) => (
+    <div key={index} className="relative w-full h-[400px]">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        fill
+        sizes="(max-width: 768px) 100vw, 800px"
+        priority={index === 0} // Load first image immediately
+        className="object-cover rounded-lg"
+        loading={index === 0 ? "eager" : "lazy"}
+      />
+    </div>
+  ));
+
+  const carouselConfig: Partial<CarouselProps> = {
+    autoPlay: true,
+    interval: 5000,
+    showDots: true,
+    showArrows: false,
+  };
+
+  return <Carousel items={slides} {...carouselConfig} />;
+};
 
 const About = () => {
   const stats = [
@@ -52,11 +117,7 @@ const About = () => {
 
         {/* Image Section */}
         <div className="relative">
-          <img
-            src="/api/placeholder/800/600"
-            alt="Company Building"
-            className="rounded-lg w-full h-full object-cover"
-          />
+          <AboutCarousel />
         </div>
       </div>
     </Container>

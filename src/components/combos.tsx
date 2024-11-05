@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./container";
+import Image from "next/image";
 
 interface ProductCollection {
   image: string;
@@ -37,7 +38,7 @@ const ProductSets: React.FC = () => {
             className="group relative aspect-[3/2] rounded overflow-hidden bg-green-200"
           >
             {/* Main Image */}
-            <img
+            <Image
               src={collection.image}
               alt={collection.alt}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

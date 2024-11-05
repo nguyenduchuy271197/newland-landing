@@ -15,6 +15,7 @@ import Container from "./container";
 import { Button } from "./ui/button";
 import data from "@/data/db.json";
 import MultiItemCarousel from "./shared/multi-items-carousel";
+import Image from "next/image";
 
 // Types
 interface Product {
@@ -132,7 +133,7 @@ const SectionHeader = ({
   </div>
 );
 
-const ProductGrid = ({ products }: { products: Product[] }) => (
+export const ProductGrid = ({ products }: { products: Product[] }) => (
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
     {products.map((product) => (
       <ProductCard key={product.id} product={product} />
